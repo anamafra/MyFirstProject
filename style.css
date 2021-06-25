@@ -460,7 +460,7 @@ footer {
   background: var(--base-color);
 }
 
-footer .logo{
+footer .logo {
   display: inline-block;
   margin-bottom: 1.5rem;
 }
@@ -486,7 +486,7 @@ footer .social a:hover {
 }
 
 /* BACK TO TOP */
-.back-to-top{
+.back-to-top {
   background: var(--base-color);
   color: var(--text-color-light);
 
@@ -511,4 +511,9 @@ footer .social a:hover {
   visibility: visible;
   opacity: 1;
   transform: translateY(0);
+}
+
+.back-to-top.btn-footer-color {
+  background: var(--text-color-light);
+  color: var(--base-color);
 }

@@ -65,6 +65,12 @@ const backToTopButton = document.querySelector('.back-to-top')
 window.addEventListener('scroll', function () {
   if (window.scrollY >= 560) {
     backToTopButton.classList.add('show')
+
+    if (window.scrollY >= 4710) {
+      backToTopButton.classList.add('btn-footer-color')
+    } else {
+      backToTopButton.classList.remove('btn-footer-color')
+    }
   } else {
     backToTopButton.classList.remove('show')
   }
